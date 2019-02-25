@@ -31,7 +31,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<div class="avatar">
-							<img src="<?php echo base_url();?>assets/<?php echo base_url();?>assets/admin/images/avatar.png" alt="Avatar">
+							<img src="<?php echo base_url();?>assets/admin/images/avatar.png" alt="Avatar">
 						</div>				
 						<h4 class="modal-title">Member Login</h4>	
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -65,7 +65,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<div class="avatar">
-							<img src="<?php echo base_url();?>assets/<?php echo base_url();?>assets/admin/images/avatar.png" alt="Avatar">
+							<img src="<?php echo base_url();?>assets/admin/images/avatar.png" alt="Avatar">
 						</div>				
 						<h4 class="modal-title">Member Register</h4>	
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
