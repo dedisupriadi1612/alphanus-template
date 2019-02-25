@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class CodeEditor extends CI_Controller {
+class Infobox1 extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class CodeEditor extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/code-editor');
+		$this->load->view('admin/infobox-1');
 	}
 }

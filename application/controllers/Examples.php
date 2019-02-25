@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Forget extends CI_Controller {
+class Examples extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class Forget extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/forget');
+		$this->load->view('admin/form-examples');
 	}
 }

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Preloader extends CI_Controller {
+class Flot extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class Preloader extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/preloader');
+		$this->load->view('admin/flot');
 	}
 }

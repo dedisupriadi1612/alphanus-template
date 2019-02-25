@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Xeditable extends CI_Controller {
+class ImageGallery extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class Xeditable extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/x-editable');
+		$this->load->view('admin/image-gallery');
 	}
 }

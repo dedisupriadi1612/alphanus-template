@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Tree extends CI_Controller {
+class Typography extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class Tree extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/tree-view');
+		$this->load->view('admin/typography');
 	}
 }

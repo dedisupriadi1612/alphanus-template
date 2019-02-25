@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class PdfViewer extends CI_Controller {
+class HelperClasses extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class PdfViewer extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/pdf-viewer');
+		$this->load->view('admin/helper-classes');
 	}
 }
